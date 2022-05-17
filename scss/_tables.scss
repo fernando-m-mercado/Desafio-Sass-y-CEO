@@ -1,0 +1,26 @@
+.tables-tarifa {
+    text-align: center;
+    font-size: large;
+    background-color: rgb(221, 221, 221);
+}
+
+table {
+    border: orange 5px solid;
+    align-content: center;
+    margin: auto;
+    width: 75%;
+    height: 300px;
+
+    tr {
+       
+       th {
+        border: black 2px solid;
+       } 
+    }
+}
+ .camaras-images {
+        max-width: 30%;
+    max-height: 30%;
+    margin: 20px;
+    border: solid 2px;
+    }

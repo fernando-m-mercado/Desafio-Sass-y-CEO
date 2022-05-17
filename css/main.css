@@ -1,0 +1,65 @@
+nav {
+  justify-content: center; }
+  nav a {
+    text-transform: capitalize; }
+
+article {
+  padding: 20px;
+  justify-content: center;
+  align-items: center; }
+  article img {
+    width: 80%;
+    align-items: center; }
+  article p {
+    text-align: center; }
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  footer img {
+    width: 75%; }
+  footer p {
+    text-align: center;
+    color: white; }
+
+.tables-tarifa {
+  text-align: center;
+  font-size: large;
+  background-color: #dddddd; }
+
+table {
+  border: orange 5px solid;
+  align-content: center;
+  margin: auto;
+  width: 75%;
+  height: 300px; }
+  table tr th {
+    border: black 2px solid; }
+
+.camaras-images {
+  max-width: 30%;
+  max-height: 30%;
+  margin: 20px;
+  border: solid 2px; }
+
+.galeria {
+  padding: 7%;
+  background-color: orange; }
+
+.container {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.card {
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 20px;
+  padding: 25px; }
+  .card img {
+    width: 100%;
+    height: auto; }
