@@ -1,5 +1,17 @@
 $color-primary:orange ;
 
+$redes: (
+    twitter: rgb(124, 124, 182),
+    facebook: blue,
+    instagram: violet,
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} {
+        color:$color;
+    }
+}
+
 @import"navbar";
 @import"article";
 @import"footer";
@@ -7,3 +19,5 @@ $color-primary:orange ;
 @import"galery";
 @import"container";
 @import"cards";
+
+
