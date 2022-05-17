@@ -99,11 +99,25 @@ table {
   table tr th {
     border: black 2px solid; }
 
-.camaras-images {
-  max-width: 30%;
-  max-height: 30%;
-  margin: 20px;
-  border: solid 2px; }
+.videos-1 {
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey; }
+  .videos-1 h1 {
+    color: white; }
+
+@media (max-width: 768px) {
+  table th {
+    font-size: small; }
+  table tr td {
+    font-size: small; } }
+
+@media (max-width: 642px) {
+  .videos-1 iframe {
+    width: 330px;
+    height: 185,625px; } }
 
 .galeria {
   padding: 7%;
