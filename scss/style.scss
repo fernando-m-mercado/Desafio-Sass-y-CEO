@@ -1,4 +1,14 @@
 $color-primary:orange ;
+$numero: 720px;
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+//operaciones
+span {
+    width: $numero*2;
+}
 
 // Maps
 
@@ -28,11 +38,15 @@ $redes: (
 }
 
 //Mixins 
+
+
 @mixin size($alto, $ancho, $margin) {
     height: $alto;
     width: $ancho;
     margin: $margin;
 }
+
+
 
 @import"navbar";
 @import"article";
@@ -41,5 +55,5 @@ $redes: (
 @import"galery";
 @import"container";
 @import"cards";
-
+@import"header";
 

@@ -1,9 +1,18 @@
 nav {
-    
-    
-    justify-content: center;
 
-    a {text-transform: capitalize;
-      }
+
+  justify-content: center;
+
+  a {
+    text-transform: capitalize;
+  }
 }
 
+@media (max-width: 470px) {
+
+  nav {
+    img {
+      width: 200px;
+    }
+  }
+}

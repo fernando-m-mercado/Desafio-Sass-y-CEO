@@ -1,3 +1,9 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+span {
+  width: 1440px; }
+
 .red-twitter {
   color: #7c7cb6; }
 
@@ -20,23 +26,46 @@ nav {
   nav a {
     text-transform: capitalize; }
 
+@media (max-width: 470px) {
+  nav img {
+    width: 200px; } }
+
 article {
-  padding: 20px;
-  justify-content: center;
-  align-items: center; }
-  article img {
-    width: 80%;
-    align-items: center; }
-  article p {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  article div {
     text-align: center; }
+  article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    width: 45%;
+    margin: 2%;
+    border: solid black; }
+
+.article-color {
+  background-color: orange; }
+
+@media (max-width: 768px) {
+  article {
+    flex-direction: column; }
+  div p {
+    font-size: small; } }
 
 footer {
   background-color: black;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
   align-items: center; }
+  footer div {
+    justify-content: right; }
+    footer div p {
+      text-align: center;
+      justify-content: right; }
   footer img {
-    width: 75%; }
+    width: 40%; }
   footer p {
     text-align: center;
     color: white; }
@@ -80,3 +109,29 @@ table {
   .card img {
     width: 100%;
     height: auto; }
+
+header {
+  padding: 5%;
+  background-image: url(../img/hedar-index.jpg);
+  background-size: 100%; }
+
+.header-index {
+  margin: 0% 50% 0% 2%;
+  padding: 5%;
+  background-color: orange;
+  text-align: center; }
+
+@media (max-width: 1024px) {
+  .header-index {
+    font-size: small; } }
+
+@media (max-width: 768px) {
+  .header-index {
+    font-size: small;
+    padding: 1%; } }
+
+@media (max-width: 660px) {
+  header {
+    background-size: 90%; }
+  .header-index {
+    margin: 0%; } }

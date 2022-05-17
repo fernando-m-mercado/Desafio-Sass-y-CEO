@@ -1,0 +1,42 @@
+header {
+    padding: 5%;
+    background-image: url(../img/hedar-index.jpg);
+    background-size: 100%;
+
+
+}
+
+.header-index {
+    margin: 0% 50% 0% 2%;
+    padding: 5%;
+    background-color: $color-primary;
+    text-align: center;
+
+}
+
+@media (max-width: 1024px) {
+    .header-index {
+        font-size: small;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-index {
+        font-size: small;
+        padding: 1%;
+    }
+}
+
+@media (max-width: 660px) {
+
+    header {
+        background-size: 90%;
+    }
+
+    .header-index {
+        margin: 0%;
+
+    }
+
+
+}

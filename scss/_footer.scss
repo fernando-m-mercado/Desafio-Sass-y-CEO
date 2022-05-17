@@ -1,11 +1,24 @@
 footer {
     background-color: black;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
     align-items: center;
 
+    div {
+        justify-content: right;
+
+        p {
+            text-align: center;
+            justify-content: right;
+        }
+
+
+
+    }
+
     img {
-        width: 75%;
+        width: 40%;
     }
 
     p {
