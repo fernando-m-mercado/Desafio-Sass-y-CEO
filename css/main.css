@@ -47,11 +47,26 @@ article {
 .article-color {
   background-color: orange; }
 
+.article-video {
+  padding: 30px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white; }
+  .article-video iframe {
+    border: solid 2px white; }
+
 @media (max-width: 768px) {
   article {
     flex-direction: column; }
   div p {
     font-size: small; } }
+
+@media (max-width: 642px) {
+  .article-video iframe {
+    width: 330px;
+    height: 185,625px; } }
 
 footer {
   background-color: black;
@@ -93,6 +108,18 @@ table {
 .galeria {
   padding: 7%;
   background-color: orange; }
+  .galeria img {
+    border: solid 2px white; }
+
+.carousel-1 h5 {
+  font-size: xx-large;
+  color: orange;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; }
+
+.carousel-1 p {
+  font-weight: bolder;
+  color: black;
+  text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white; }
 
 .container {
   justify-content: center;
@@ -135,3 +162,15 @@ header {
     background-size: 90%; }
   .header-index {
     margin: 0%; } }
+
+form {
+  padding: 5%;
+  background-color: orange; }
+
+@media (max-width: 768px) {
+  form label {
+    font-size: small; }
+  form input {
+    font-size: small; }
+  form textarea {
+    font-size: small; } }
