@@ -1,3 +1,20 @@
+.red-twitter {
+  color: #7c7cb6; }
+
+.red-facebook {
+  color: blue; }
+
+.red-instagram {
+  color: violet; }
+
+.boton, .boton-primario {
+  border: solid grey;
+  padding: 8px;
+  margin: 8px; }
+
+.boton-primario {
+  background-color: blue; }
+
 nav {
   justify-content: center; }
   nav a {

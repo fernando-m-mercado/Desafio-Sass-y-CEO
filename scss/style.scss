@@ -1,5 +1,7 @@
 $color-primary:orange ;
 
+// Maps
+
 $redes: (
     twitter: rgb(124, 124, 182),
     facebook: blue,
@@ -10,6 +12,26 @@ $redes: (
     .red-#{$red} {
         color:$color;
     }
+}
+
+//extend
+
+.boton {
+    border: solid grey;
+    padding: 8px;
+    margin: 8px;
+}
+
+.boton-primario {
+    @extend .boton;
+    background-color: blue;
+}
+
+//Mixins 
+@mixin size($alto, $ancho, $margin) {
+    height: $alto;
+    width: $ancho;
+    margin: $margin;
 }
 
 @import"navbar";
