@@ -8,6 +8,24 @@ nav {
   }
 }
 
+
+
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.nav-link:hover {
+  border: solid 4px white;
+  font-size: large;
+  border-radius: 10px;
+
+}
+
 @media (max-width: 470px) {
 
   nav {
