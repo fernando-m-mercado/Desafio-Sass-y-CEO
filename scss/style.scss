@@ -1,4 +1,4 @@
-$color-primary:orange ;
+$color-primary: orange;
 $numero: 720px;
 
 body {
@@ -18,9 +18,10 @@ $redes: (
     instagram: violet,
 );
 
-@each $red, $color in $redes {
+@each $red,
+$color in $redes {
     .red-#{$red} {
-        color:$color;
+        color: $color;
     }
 }
 
