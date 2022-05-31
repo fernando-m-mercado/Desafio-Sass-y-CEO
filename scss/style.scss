@@ -1,53 +1,3 @@
-$color-primary: orange;
-$numero: 720px;
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-//operaciones
-span {
-    width: $numero*2;
-}
-
-// Maps
-
-$redes: (
-    twitter: rgb(124, 124, 182),
-    facebook: blue,
-    instagram: violet,
-);
-
-@each $red,
-$color in $redes {
-    .red-#{$red} {
-        color: $color;
-    }
-}
-
-//extend
-
-.boton {
-    border: solid grey;
-    padding: 8px;
-    margin: 8px;
-}
-
-.boton-primario {
-    @extend .boton;
-    background-color: blue;
-}
-
-//Mixins 
-
-
-@mixin size($alto, $ancho, $margin) {
-    height: $alto;
-    width: $ancho;
-    margin: $margin;
-}
-
-
 
 @import"navbar";
 @import"article";
@@ -58,3 +8,7 @@ $color in $redes {
 @import"cards";
 @import"header";
 @import"form";
+@import"maps";
+@import"global";
+@import"variables.scss";
+@import"grids.scss";

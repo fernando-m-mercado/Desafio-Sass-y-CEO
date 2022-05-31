@@ -19,10 +19,29 @@ footer {
 
     img {
         width: 40%;
+        margin: 10px;
     }
 
     p {
         text-align: center;
         color: white;
     }
+}
+
+@media (max-width: 638px){
+    footer {
+        p {
+            font-size: small;
+        }
+    }
+}
+
+
+@media (max-width: 375px){
+    footer {
+        p {
+            font-size: x-small;
+        }
+    }
+
 }
