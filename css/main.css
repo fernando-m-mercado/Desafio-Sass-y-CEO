@@ -61,6 +61,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center; }
   footer div {
     justify-content: right; }
@@ -115,11 +116,6 @@ table {
 iframe {
   width: 100% !important; }
 
-@media (max-width: 642px) {
-  .videos-1 {
-    width: 330px;
-    height: 185, 625px; } }
-
 .galeria {
   padding: 7%;
   background-color: black; }
@@ -135,6 +131,11 @@ iframe {
   font-weight: bolder;
   color: black;
   text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white; }
+
+.titulo-1 {
+  color: white;
+  text-align: center;
+  padding: 2%; }
 
 .container {
   justify-content: center;

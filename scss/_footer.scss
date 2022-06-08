@@ -3,6 +3,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 
     div {
@@ -28,7 +29,7 @@ footer {
     }
 }
 
-@media (max-width: 638px){
+@media (max-width: 638px) {
     footer {
         p {
             font-size: small;
@@ -37,7 +38,7 @@ footer {
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
     footer {
         p {
             font-size: x-small;

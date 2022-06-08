@@ -1,38 +1,41 @@
 .grid {
     display: grid;
-    justify-items:center;
-    align-items:center;
-    justify-content:center;
-    align-content:center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     text-align: center;
     grid-template-areas:
         "a a a"
         "b c d"
-        ;
+    ;
 }
 
-.a { 
-    grid-area:a;
+.a {
+    grid-area: a;
     padding: 5%;
 }
 
-.b
-{ grid-area:b;}
+.b {
+    grid-area: b;
+}
 
-.c
-{ grid-area:c;}
+.c {
+    grid-area: c;
+}
 
-.d
-{ grid-area:d; }
+.d {
+    grid-area: d;
+}
 
 @media (max-width: 588px) {
 
     .grid {
         grid-template-areas:
-        "a"
-        "b"
-        "c"
-        "d"
+            "a"
+            "b"
+            "c"
+            "d"
         ;
     }
 }
